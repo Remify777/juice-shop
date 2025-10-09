@@ -1,8 +1,11 @@
+# config/default.yml
 server:
   port: 3000
   basePath: ''
   baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
 application:
+  apiKey: "fake_api_key_1234567890"
+  dbPassword: "insecure_db_password"
   domain: juice-sh.op # for pre-loaded email users
   name: 'OWASP Juice Shop'
   logo: JuiceShop_Logo.png
